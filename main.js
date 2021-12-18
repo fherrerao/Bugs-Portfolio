@@ -224,7 +224,7 @@ clickButtonProject2.forEach((item) => {
 const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('click', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     message();
     e.preventDefault();
